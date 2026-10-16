@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Entreprise & Notre Histoire | CFASHOP BAMAKO - Style Américain au Mali</title>
+  <meta name="description" content="Découvrez l'histoire, la vision et les données officielles de l'entreprise CFASHOP Bamako, leader du streetwear américain et des sneakers au Mali.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6.5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cfa: {
+              orange: '#ea580c',
+              red: '#ef4444',
+              gold: '#f59e0b',
+              dark: '#0f172a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Feuille de Style Personnalisée -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-announcement-bar" aria-label="Bandeau d'information">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <div class="d-flex align-items-center gap-3 text-slate-700">
+        <span class="fw-bold text-orange-600"><i class="fa-solid fa-fire text-danger me-1"></i> CFASHOP BAMAKO</span>
+        <span class="d-none d-sm-inline">•</span>
+        <span class="d-none d-sm-inline"><i class="fa-solid fa-location-dot text-danger me-1"></i> Dialakorobougou, Bamako</span>
+      </div>
+      <div class="mx-auto mx-md-0 fw-bold text-slate-800 text-center">
+        👟 ARRIVAGE DIRECT USA : Baskets Rétro, Jeans Larges Lagos & Hoodies !
+      </div>
+      <div class="d-flex align-items-center gap-3 ms-auto ms-md-0">
+        <a href="https://wa.me/22398345971" target="_blank" class="text-orange-600 hover:text-orange-700 d-flex align-items-center gap-1 font-mono fw-bold text-decoration-none">
+          <i class="fa-brands fa-whatsapp text-success fs-6"></i> +223 98 34 59 71
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- HEADER AVEC BOUTONS PILLS VISIBLES -->
+  <header class="navbar-pro py-2.5">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between gap-3">
+        <!-- Logo -->
+        <a class="d-flex align-items-center gap-2.5 text-decoration-none" href="index.html" title="CFASHOP Bamako Accueil">
+          <div class="position-relative overflow-hidden rounded-3 shadow-sm border border-slate-200 bg-white d-flex align-items-center justify-content-center" style="width: 46px; height: 46px; min-width: 46px;">
+            <img src="images/logo-cfashop.png" alt="Logo CFASHOP Bamako" class="w-100 h-100 object-fit-cover" style="transform: scale(1.06);">
+          </div>
+          <div>
+            <div class="d-flex align-items-center gap-1.5">
+              <span class="fw-black tracking-wider text-slate-900 fs-4 d-block lh-1 font-street">CFA<span class="text-orange-600">SHOP</span></span>
+              <span class="badge bg-dark text-amber-400 font-mono text-2xs px-1.5 py-0.5 rounded fw-bold" style="font-size: 0.6rem;">MLI</span>
+            </div>
+            <span class="text-xs text-slate-500 tracking-wider text-uppercase d-none d-sm-block fw-bold" style="font-size: 0.65rem;">
+              <span class="text-orange-600 font-extrabold">DIALAKOROBOUGOU</span> • SNEAKERS &amp; STREETWEAR
+            </span>
+          </div>
+        </a>
+
+        <!-- Boutons de Navigation Centrés & Toujours Visibles -->
+        <nav class="d-none d-lg-flex align-items-center gap-1.5 gap-xl-2" aria-label="Navigation principale">
+          <a href="index.html" class="nav-pill-btn">
+            <i class="fa-solid fa-house text-orange-600"></i> Accueil
+          </a>
+          <a href="boutique.html" class="nav-pill-btn">
+            <i class="fa-solid fa-bag-shopping text-orange-600"></i> Boutique & Drops
+          </a>
+          <a href="a-propos.html" class="nav-pill-btn active">
+            <i class="fa-solid fa-building text-white"></i> L'Entreprise & Histoire
+          </a>
+          <a href="conditions.html" class="nav-pill-btn">
+            <i class="fa-solid fa-truck-fast text-orange-600"></i> Livraison & Conditions
+          </a>
+          <a href="contact.html" class="nav-pill-btn">
+            <i class="fa-solid fa-location-dot text-orange-600"></i> Contact & Accès
+          </a>
+        </nav>
+
+        <!-- Actions Droite -->
+        <div class="d-flex align-items-center gap-2">
+          <a href="https://wa.me/22398345971" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-shimmer btn-sm px-3.5 py-2 font-bold shadow-sm d-flex align-items-center gap-2">
+            <i class="fa-brands fa-whatsapp fs-5"></i>
+            <span class="d-none d-sm-inline">WhatsApp Direct</span>
+          </a>
+          <button class="btn btn-outline-secondary btn-sm rounded-3 d-lg-none p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenuOffcanvas" aria-label="Menu">
+            <i class="fa-solid fa-bars-staggered fs-5 text-orange-600"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="offcanvas offcanvas-start bg-white" tabindex="-1" id="mobileMenuOffcanvas" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header border-bottom border-slate-200 bg-slate-50">
+      <div class="d-flex align-items-center gap-2">
+        <div class="rounded-3 bg-orange-600 text-white d-flex align-items-center justify-content-center fw-black font-street" style="width: 38px; height: 38px;">
+          CFA
+        </div>
+        <h5 class="offcanvas-title font-street fw-bold text-slate-900" id="mobileMenuLabel">CFASHOP BAMAKO</h5>
+      </div>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fermer"></button>
+    </div>
+    <div class="offcanvas-body p-4 d-flex flex-column justify-content-between">
+      <div class="d-flex flex-column gap-2">
+        <a href="index.html" class="nav-pill-btn text-center justify-content-center py-3">
+          <i class="fa-solid fa-house text-orange-600"></i> Accueil
+        </a>
+        <a href="boutique.html" class="nav-pill-btn text-center justify-content-center py-3">
+          <i class="fa-solid fa-bag-shopping text-orange-600"></i> Boutique & Catalogue
+        </a>
+        <a href="a-propos.html" class="nav-pill-btn active text-center justify-content-center py-3">
+          <i class="fa-solid fa-building"></i> L'Entreprise & Histoire
+        </a>
+        <a href="conditions.html" class="nav-pill-btn text-center justify-content-center py-3">
+          <i class="fa-solid fa-truck-fast text-orange-600"></i> Livraison & Conditions
+        </a>
+        <a href="contact.html" class="nav-pill-btn text-center justify-content-center py-3">
+          <i class="fa-solid fa-location-dot text-orange-600"></i> Contact & Accès
+        </a>
+      </div>
+      <div class="pt-4 border-top border-slate-200">
+        <a href="https://wa.me/22398345971" class="btn btn-whatsapp w-100 py-3 font-bold d-flex align-items-center justify-content-center gap-2">
+          <i class="fa-brands fa-whatsapp fs-5"></i> Échanger sur WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- En-tête de la Page -->
+  <section class="py-5 bg-mesh-pattern border-bottom border-slate-200">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-2 text-xs">
+          <li class="breadcrumb-item"><a href="index.html" class="text-slate-500 text-decoration-none">Accueil</a></li>
+          <li class="breadcrumb-item active text-orange-600 fw-bold" aria-current="page">L'Entreprise & Histoire</li>
+        </ol>
+      </nav>
+      <div class="max-w-3xl">
+        <span class="badge-outline-gold mb-2 d-inline-block">Qui sommes-nous ?</span>
+        <h1 class="display-5 fw-black text-slate-900 mb-3 font-street">L'Histoire et les Valeurs de CFASHOP</h1>
+        <p class="lead text-slate-600 text-base mb-0" style="line-height: 1.8;">
+          Plus qu'une simple boutique, CFASHOP est le point de ralliement des passionnés de culture streetwear américaine, de sneakers exclusives et de mode urbaine à Bamako.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Corps : Notre Histoire & Données Entreprise -->
+  <main class="py-5">
+    <div class="container">
+      <!-- Section 1 : Notre Genèse -->
+      <div class="row align-items-center g-5 mb-5 pb-4">
+        <div class="col-12 col-lg-6">
+          <h2 class="display-6 fw-black text-slate-900 mb-3 font-street">
+            La Naissance d'une Référence Streetwear au Mali
+          </h2>
+          <p class="text-slate-600 mb-3" style="line-height: 1.8;">
+            L'aventure <strong>CFASHOP</strong> est née d'un constat simple à Bamako : les jeunes amateurs de hip-hop, les artistes, les sportifs et les passionnés de mode devaient soit se contenter d'imitations locales de basse qualité, soit attendre des semaines pour des envois coûteux depuis l'étranger.
+          </p>
+          <p class="text-slate-600 mb-4" style="line-height: 1.8;">
+            Fondée en 2023 à Bamako, <strong>CFASHOP</strong> a brisé cette barrière en créant un canal direct d'importation de paires de sneakers authentiques (Nike Air Jordan, Dunks, Air Force 1) et de vêtements streetwear phares (jeans cargos larges Lagos, pulls et hoodies oversized molletonnés).
+          </p>
+          <div class="d-flex align-items-center gap-4 pt-2">
+            <div>
+              <span class="display-6 fw-black text-orange-600 font-mono d-block">100%</span>
+              <span class="text-xs text-slate-600">Authenticité Certifiée</span>
+            </div>
+            <div class="border-start border-slate-300 ps-4">
+              <span class="display-6 fw-black text-slate-900 font-mono d-block">+2 500</span>
+              <span class="text-xs text-slate-600">Clients Habillés</span>
+            </div>
+            <div class="border-start border-slate-300 ps-4">
+              <span class="display-6 fw-black text-danger font-mono d-block">4.9/5</span>
+              <span class="text-xs text-slate-600">Satisfaction Vérifiée</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="position-relative">
+            <img 
+              src="images/products/travis-scott-olive.jpg" 
+              alt="Baskets CFASHOP Bamako - Travis Scott Retro Low Olive" 
+              class="rounded-4 w-100 shadow-xl border border-slate-200"
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2 : Fiche d'Identité & Données Légales sur l'Entreprise -->
+      <div class="bg-white p-4 p-md-5 rounded-4 border border-slate-200 shadow-sm mb-5">
+        <div class="text-center max-w-xl mx-auto mb-4">
+          <span class="badge-outline-gold mb-2 d-inline-block">Transparence & Fiabilité</span>
+          <h3 class="fw-black text-slate-900 font-street">Fiche d'Identité de l'Entreprise</h3>
+          <p class="text-slate-600 text-sm">Toutes les informations administratives et commerciales de CFASHOP au Mali.</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-bordered align-middle">
+            <thead class="table-light">
+              <tr>
+                <th style="width: 35%;" class="text-slate-700 font-street">Caractéristique</th>
+                <th class="text-slate-700 font-street">Données Officielles de l'Entreprise</th>
+              </tr>
+            </thead>
+            <tbody class="text-sm">
+              <tr>
+                <td class="fw-bold text-slate-800">Dénomination Commerciale</td>
+                <td class="text-orange-600 fw-bold font-street">CFASHOP BAMAKO SARL</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Secteur d'Activité</td>
+                <td>Commerce de détail d'habillement, chaussures de sport (Sneakers), prêt-à-porter et accessoires de mode urbaine</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Immatriculation RCCM</td>
+                <td class="font-mono text-slate-700">MA.BKO.2023.B.14892 (Tribunal de Commerce de Bamako)</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Numéro d'Identification Fiscale (NIF)</td>
+                <td class="font-mono text-slate-700">087421932K</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Siège Social & Boutique</td>
+                <td>Route Principale, Quartier Dialakorobougou, Bamako, République du Mali</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Contact Téléphonique & WhatsApp</td>
+                <td class="font-mono fw-bold text-slate-900">+223 98 34 59 71</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Courriel Professionnel</td>
+                <td>contact@cfashop-bamako.ml / support@cfashop-bamako.ml</td>
+              </tr>
+              <tr>
+                <td class="fw-bold text-slate-800">Horaires d'Accueil Public</td>
+                <td>Du Lundi au Samedi : 09h30 – 21h00 (Service continu)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Section 3 : Les 4 Engagements CFASHOP -->
+      <div class="mb-5">
+        <div class="text-center mb-5">
+          <span class="badge-outline-gold mb-2 d-inline-block">Nos Engagements</span>
+          <h3 class="display-6 fw-black text-slate-900 font-street">Pourquoi CFASHOP Fait la Différence</h3>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-4 bg-white rounded-4 border border-slate-200 shadow-sm h-100">
+              <div class="rounded-circle bg-orange-100 text-orange-600 p-3 d-inline-block mb-3">
+                <i class="fa-solid fa-box-open fs-4"></i>
+              </div>
+              <h5 class="fw-bold text-slate-900 font-street mb-2">100% Neuf en Boîte</h5>
+              <p class="text-slate-600 text-xs mb-0" style="line-height: 1.7;">
+                Toutes nos paires de baskets sont neuves, jamais portées, fournies dans leur boîte d'origine avec étiquettes officielles.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-4 bg-white rounded-4 border border-slate-200 shadow-sm h-100">
+              <div class="rounded-circle bg-green-100 text-green-600 p-3 d-inline-block mb-3">
+                <i class="fa-solid fa-truck-ramp-box fs-4"></i>
+              </div>
+              <h5 class="fw-bold text-slate-900 font-street mb-2">Essayage à la Livraison</h5>
+              <p class="text-slate-600 text-xs mb-0" style="line-height: 1.7;">
+                Notre livreur attend que vous essayiez la pointure à votre domicile ou bureau. Pas de mauvaise surprise.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-4 bg-white rounded-4 border border-slate-200 shadow-sm h-100">
+              <div class="rounded-circle bg-blue-100 text-blue-600 p-3 d-inline-block mb-3">
+                <i class="fa-solid fa-plane-arrival fs-4"></i>
+              </div>
+              <h5 class="fw-bold text-slate-900 font-street mb-2">Arrivages Bimensuels</h5>
+              <p class="text-slate-600 text-xs mb-0" style="line-height: 1.7;">
+                Des nouveautés toutes les deux semaines importées des USA et de Lagos pour vous garantir les pièces les plus fraîches.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-4 bg-white rounded-4 border border-slate-200 shadow-sm h-100">
+              <div class="rounded-circle bg-amber-100 text-amber-600 p-3 d-inline-block mb-3">
+                <i class="fa-solid fa-comments fs-4"></i>
+              </div>
+              <h5 class="fw-bold text-slate-900 font-street mb-2">Conseil Styliste Dédié</h5>
+              <p class="text-slate-600 text-xs mb-0" style="line-height: 1.7;">
+                Besoin d'accorder un jean avec des baskets ? Échangez directement par photo sur WhatsApp avec nos conseillers de vente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="p-4 p-md-5 bg-gradient-to-r from-orange-500 to-amber-500 rounded-4 text-white text-center shadow-lg">
+        <h3 class="display-6 fw-black font-street mb-2 text-white">Envie de Découvrir Nos Derniers Arrivages ?</h3>
+        <p class="max-w-xl mx-auto mb-4 text-orange-100">Consultez notre boutique en ligne ou venez nous rendre visite directement à Dialakorobougou Bamako.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <a href="boutique.html" class="btn btn-light px-4 py-2.5 fw-bold text-orange-700 shadow-sm">
+            <i class="fa-solid fa-bag-shopping me-2"></i>Accéder au Catalogue
+          </a>
+          <a href="contact.html" class="btn btn-outline-light px-4 py-2.5 fw-bold">
+            <i class="fa-solid fa-location-dot me-2"></i>Nous Trouver à Bamako
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-4 bg-slate-100 border-top border-slate-200">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-12 col-md-4">
+          <div class="d-flex align-items-center gap-2.5 mb-3">
+            <div class="position-relative overflow-hidden rounded-3 shadow-sm border border-slate-200 bg-white d-flex align-items-center justify-content-center" style="width: 44px; height: 44px; min-width: 44px;">
+              <img src="images/logo-cfashop.png" alt="Logo CFASHOP Bamako" class="w-100 h-100 object-fit-cover" style="transform: scale(1.06);">
+            </div>
+            <div>
+              <span class="fw-black tracking-wider text-slate-900 fs-4 d-block lh-1 font-street">CFA<span class="text-orange-600">SHOP</span></span>
+              <span class="text-xs text-slate-500 font-bold tracking-wider text-uppercase" style="font-size: 0.65rem;">DIALAKOROBOUGOU • BAMAKO</span>
+            </div>
+          </div>
+          <p class="text-slate-600 text-xs mb-4" style="line-height: 1.8;">
+            Boutique streetwear spécialisée dans les styles américains, sneakers originales, jeans baggy Lagos et hoodies à Bamako (Mali).
+          </p>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6 class="text-slate-900 font-street mb-3 small tracking-wider text-uppercase fw-bold">Navigation</h6>
+          <ul class="list-unstyled text-xs d-flex flex-column gap-2 mb-0">
+            <li><a href="index.html" class="text-slate-600 hover:text-orange-600 text-decoration-none">Accueil</a></li>
+            <li><a href="boutique.html" class="text-slate-600 hover:text-orange-600 text-decoration-none">Boutique & Catalogue</a></li>
+            <li><a href="a-propos.html" class="text-slate-600 hover:text-orange-600 text-decoration-none fw-bold">L'Entreprise & Histoire</a></li>
+            <li><a href="conditions.html" class="text-slate-600 hover:text-orange-600 text-decoration-none">Livraison & Conditions</a></li>
+            <li><a href="contact.html" class="text-slate-600 hover:text-orange-600 text-decoration-none">Contact & Accès</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h6 class="text-slate-900 font-street mb-3 small tracking-wider text-uppercase fw-bold">Données Entreprise</h6>
+          <ul class="list-unstyled text-xs d-flex flex-column gap-2 mb-0 text-slate-600">
+            <li><span><strong class="text-slate-800">Nom :</strong> CFASHOP BAMAKO SARL</span></li>
+            <li><span><strong class="text-slate-800">Siège :</strong> Dialakorobougou, Bamako, Mali</span></li>
+            <li><span><strong class="text-slate-800">Téléphone :</strong> +223 98 34 59 71</span></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h6 class="text-slate-900 font-street mb-3 small tracking-wider text-uppercase fw-bold">Authenticité & Garantie</h6>
+          <div class="p-3 bg-white border border-slate-200 rounded-3 text-xs shadow-sm">
+            <span class="badge-stock d-inline-block mb-2"><i class="fa-solid fa-circle-check me-1"></i>100% Neuf en Boîte</span>
+            <p class="text-slate-600 mb-1">Articles streetwear & sneakers certifiés importés des États-Unis.</p>
+            <span class="text-orange-600 fw-bold d-block">Essayage à Bamako</span>
+            <span class="text-slate-500">Paiement Wave, Orange Money ou Espèces</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4 border-top border-slate-200 d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 text-xs text-slate-500">
+        <div>© 2025 <strong>CFASHOP BAMAKO</strong>. Tous droits réservés.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Barre de Navigation Mobile Native -->
+  <nav class="mobile-bottom-nav d-flex d-lg-none" aria-label="Navigation mobile">
+    <a href="index.html" class="mobile-nav-link">
+      <i class="fa-solid fa-house"></i>
+      <span>Accueil</span>
+    </a>
+    <a href="boutique.html" class="mobile-nav-link">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Boutique</span>
+    </a>
+    <a href="https://wa.me/22398345971?text=Bonjour%20CFASHOP%20Bamako,%20je%20veux%20passer%20commande." target="_blank" rel="noopener noreferrer" class="mobile-nav-wa-btn" title="Commander sur WhatsApp">
+      <i class="fa-brands fa-whatsapp fs-4"></i>
+    </a>
+    <a href="a-propos.html" class="mobile-nav-link active">
+      <i class="fa-solid fa-building"></i>
+      <span>Histoire</span>
+    </a>
+    <a href="contact.html" class="mobile-nav-link">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
