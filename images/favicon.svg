@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <!-- Dégradé Sombre Obsidian -->
+    <linearGradient id="favDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Dégradé Signature Orange Hype -->
+    <linearGradient id="favOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a00" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+
+    <!-- Dégradé Or Métallique -->
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fond carré arrondi moderne (style icône d'application iOS / Favicon) -->
+  <rect x="4" y="4" width="120" height="120" rx="32" fill="url(#favDark)" />
+  <rect x="6" y="6" width="116" height="116" rx="30" stroke="url(#favOrange)" stroke-width="3" fill="none" opacity="0.9" />
+
+  <!-- Liseré supérieur lumineux -->
+  <path d="M 36 6 L 92 6" stroke="url(#favGold)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Monogramme CFA Puissant & Stylisé -->
+  <text x="64" y="68" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Impact, sans-serif" font-weight="900" font-size="38" fill="#ffffff" text-anchor="middle" letter-spacing="-1">CFA</text>
+
+  <!-- Semelle sneaker / trait dynamique streetwear -->
+  <path d="M 28 80 Q 64 88 100 80" fill="none" stroke="url(#favOrange)" stroke-width="4.5" stroke-linecap="round" />
+  
+  <!-- Texte BAMAKO en or -->
+  <text x="64" y="104" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="url(#favGold)" text-anchor="middle" letter-spacing="4">BAMAKO</text>
+</svg>
