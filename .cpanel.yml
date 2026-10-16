@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vuxe6870/cfa-shop.danayaplus.com/
+    - /bin/rsync -av --exclude='.git*' ./ $DEPLOYPATH
